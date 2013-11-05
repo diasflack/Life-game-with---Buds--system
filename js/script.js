@@ -115,7 +115,7 @@ $(document).ready( function(){
 				}
 		}
 		}
-		if (alive == 0) {alert('Выживаемость системы - '+generation+' поколений. Отпочковалось - '+budsCount+' организмов'); stopGame(); generation = 0; budsCount=0;};
+		if (alive == 0) {alert('System survived through - '+generation+'generations. Budded - '+budsCount+' cells'); stopGame(); generation = 0; budsCount=0;};
 	}
 	
 	function gameMove() {
